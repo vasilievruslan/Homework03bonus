@@ -70,9 +70,15 @@ html{
 }
 .image{
 	border: 2px Solid #ccc;
+	display: block;
 }
 .footer_cpr{
 	color: white;
 	text-align: center;
 	margin-bottom: 20px;
+}
+.text_title{
+	display: block;
+	text-decoration: none;
+	color: #fff;
 }
