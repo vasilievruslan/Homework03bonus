@@ -1,0 +1,78 @@
+html{
+	background-image: url(../img/background.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.wrapper{
+	width: 822px;
+	margin: 0 auto;
+	color: white;
+	min-height: calc( 100vh - 200px);
+}
+.header{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 130px;
+	font-size: 11px;
+}
+.logo{
+	text-align: center;
+	position: relative;
+}
+.logo p{
+	margin: 5px 0px 20px;
+}
+.logo:after{
+	content: '';
+	right: 0;
+	top: -66px;
+	display: block;
+	position: absolute;
+	background: url(../img/palma-bg.png) 0 0 no-repeat;
+	width: 125px;
+	height: 147px;
+	opacity: 0.4;
+	z-index: -1;
+}
+.contacts{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+}
+.main_content{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.country_block{
+	margin-bottom: 50px;
+	text-align: center;
+}
+.image img{
+	display: block;
+}
+.image{
+	border: 2px Solid #ccc;
+}
+.footer_cpr{
+	color: white;
+	text-align: center;
+	margin-bottom: 20px;
+}
